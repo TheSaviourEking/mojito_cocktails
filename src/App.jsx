@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="flex-center h-screen">
-      <h1 className="text-3xl tex-in">We here</h1>
-    </div>
+    <main>
+      <Navbar />
+    </main>
   );
 }
 
