@@ -36,7 +36,7 @@ const Hero = () => {
           trigger: "#hero",
           start: "top top",
           end: "bottom top",
-          scrub: 1,
+          scrub: true, // or use number to count the seconds before response
           // markers: true,
         },
       })
